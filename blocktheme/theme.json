@@ -1,0 +1,218 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.7/theme.json",
+	"version": 3,
+	"settings": {
+		"appearanceTools": false,
+		"blocks": {
+			"core/image": {
+				"lightbox": {
+					"enabled": false,
+					"allowEditing": true
+				}
+			}
+		},
+		"border": {
+			"color": false,
+			"radius": false,
+			"style": false,
+			"width": false
+		},
+		"color": {
+			"background": true,
+			"custom": false,
+			"customDuotone": false,
+			"customGradient": false,
+			"defaultDuotone": false,
+			"defaultGradients": false,
+			"defaultPalette": false,
+			"duotone": [],
+			"gradients": [],
+			"link": false,
+			"palette": [
+				{
+					"color": "#ffffff",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "#000000",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "#1d70b8",
+					"name": "Primary",
+					"slug": "primary"
+				},
+				{
+					"color": "#ff6018",
+					"name": "Secondary",
+					"slug": "secondary"
+				}
+			],
+			"text": true
+		},
+		"custom": {
+			"htmlFontSize": "16px"
+		},
+		"dimensions": {
+			"minHeight": false
+		},
+		"layout": {
+			"contentSize": "64rem",
+			"wideSize": "80rem"
+		},
+		"position": {
+			"sticky": false
+		},
+		"shadow": {
+			"defaultPresets": false,
+			"presets": []
+		},
+		"spacing": {
+			"blockGap": true,
+			"customSpacingSize": false,
+			"defaultSpacingSizes": false,
+			"margin": true,
+			"padding": true,
+			"spacingScale": {},
+			"spacingSizes": [
+				{
+					"name": "Small",
+					"size": "0.5rem",
+					"slug": "small"
+				},
+				{
+					"name": "Medium",
+					"size": "1rem",
+					"slug": "medium"
+				},
+				{
+					"name": "Large",
+					"size": "2rem",
+					"slug": "large"
+				},
+				{
+					"name": "Extra Large",
+					"size": "4rem",
+					"slug": "x-large"
+				}
+			],
+			"units": [ "rem" ]
+		},
+		"typography": {
+			"customFontSize": false,
+			"defaultFontSizes": false,
+			"dropCap": false,
+			"fluid": true,
+			"fontFamilies": [
+				{
+					"name": "Primary",
+					"slug": "primary",
+					"fontFamily": "Verdana, sans-serif"
+				}
+			],
+			"fontSizes": [
+				{
+					"name": "Small",
+					"size": "0.9rem",
+					"slug": "small",
+					"fluid": false
+				},
+				{
+					"name": "Medium",
+					"size": "1rem",
+					"slug": "medium",
+					"fluid": {
+						"min": "1rem",
+						"max": "1.25rem"
+					}
+				},
+				{
+					"name": "Large",
+					"size": "1.25rem",
+					"slug": "large",
+					"fluid": {
+						"min": "1rem",
+						"max": "1.5rem"
+					}
+				},
+				{
+					"name": "Extra Large",
+					"size": "1.5rem",
+					"slug": "x-large",
+					"fluid": {
+						"min": "1.25rem",
+						"max": "2rem"
+					}
+				}
+			],
+			"fontStyle": false,
+			"fontWeight": false,
+			"letterSpacing": false,
+			"lineHeight": false,
+			"textColumns": false,
+			"textDecoration": false,
+			"textTransform": false,
+			"writingMode": false
+		},
+		"useRootPaddingAwareAlignments": false
+	},
+	"styles": {
+		"color": {
+			"text": "var:preset|color|contrast",
+			"background": "var:preset|color|base"
+		},
+		"elements": {
+			"button": {
+				"color": {
+					"text": "var:preset|color|base",
+					"background": "var:preset|color|primary"
+				},
+				"border": {
+					"radius": "0"
+				},
+				":hover": {
+					"color": {
+						"background": "var:preset|color|secondary"
+					}
+				}
+			},
+			"link": {
+				"color": {
+					"text": "var:preset|color|primary"
+				},
+				":hover": {
+					"color": {
+						"text": "var:preset|color|secondary"
+					}
+				}
+			}
+		},		
+		"spacing": {
+			"blockGap": "var:preset|spacing|medium",
+			"padding": {
+				"left": "var:preset|spacing|medium",
+				"right": "var:preset|spacing|medium"
+			}
+		},
+		"typography": {
+			"fontSize": "var:preset|font-size|medium",
+			"fontFamily": "var:preset|font-family|primary"
+		}
+	},
+	"customTemplates": {},
+	"patterns": [],
+	"templateParts": [
+		{
+			"area": "header",
+			"name": "header",
+			"title": "Header"
+		},
+		{
+			"area": "footer",
+			"name": "footer",
+			"title": "Footer"
+		}
+	]
+}
