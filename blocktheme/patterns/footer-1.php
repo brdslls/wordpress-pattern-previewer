@@ -107,7 +107,7 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"var:preset|spacing|large","bottom":"var:preset|spacing|large"}}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
-<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--large);margin-bottom:var(--wp--preset--spacing--large)"><!-- wp:media-text {"mediaLink":"<?=get_template_directory_uri()?>/images/sprite.svg#trophy","mediaType":"image","mediaWidth":80,"imageFill":false,"useFeaturedImage":true} -->
+<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--large);margin-bottom:var(--wp--preset--spacing--large)"><!-- wp:media-text {"mediaLink":"<?=get_template_directory_uri()?>/images/sprite.svg#trophy","mediaType":"image","mediaWidth":80,"imageFill":false,"useFeaturedImage":false} -->
 <div class="wp-block-media-text" style="grid-template-columns:80px minmax(calc(100% - 80px), 320px)"><figure class="wp-block-media-text__media"><img src="<?=get_template_directory_uri()?>/images/sprite.svg#logo" alt="logo" style="height: 32px;zoom: 2.5;filter: invert(1);"/></figure><div class="wp-block-media-text__content"><!-- wp:paragraph {"placeholder":"Content…","fontSize":"x-large"} -->
 <p class="has-x-large-font-size">Company Name</p>
 <!-- /wp:paragraph --></div></div>

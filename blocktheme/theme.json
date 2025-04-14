@@ -181,7 +181,7 @@
 	},
 	"styles": {
 		"blocks": {
-			"core/buttons": {
+			"core/cover": {
 				"elements": {
 					"button": {
 						"color": {
@@ -193,9 +193,7 @@
 							}
 						}
 					}
-				}
-			},
-			"core/cover": {
+				},
 				"spacing": {
 					"margin": {
 						"top": "var:preset|spacing|none"
@@ -244,7 +242,7 @@
 				}
 			},
 			"woocommerce/mini-cart": {
-				"css": "& .wc-block-mini-cart__badge{font-size: var(--wp--preset--font-size--small)}"
+				"css": "& .wc-block-mini-cart__badge{font-size: var(--wp--preset--font-size--small);padding:var(--wp--preset--spacing--small)}"
 			}
 		},
 		"color": {
