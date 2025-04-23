@@ -237,7 +237,7 @@ function ir_head_action(){
       const observer = new MutationObserver(mutations => {
         mutations.forEach(mutation => {
           Array.from(mutation.addedNodes).forEach(node => {
-            if (node.tagName === 'IMG' && node.width > 200 && !node.classList.contains('pp-image')) {
+            if (node.tagName === 'IMG' && node.width > 100 && !node.classList.contains('pp-image')) {
               let image = IMAGES_global.shift();
               if(image != null){
                 node.src = image;
